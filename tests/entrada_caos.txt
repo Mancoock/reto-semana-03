@@ -1,0 +1,18 @@
+fecha,producto,cantidad,precio_unitario
+2026-04-01,Laptop,2,15000.00
+2026-04-01,Mouse,,250.00
+,,,,,
+2026-04-02,Teclado,cinco,800.00
+2026-04-02,Monitor,1,
+2026-04-03
+2026-04-03,Silla Gamer,2,4500.00,extra
+2026-04-03,Laptop Pro, 16GB,1,20000.00
+2026-04-04,Audifonos,Ocho,300.00
+2026-04-04,Mouse,10,$250.00
+2026-04-05,Teclado,10,800.00
+
+2026-04-06,Monitor,3.5,6000.00
+2026-04-06,Disco Duro,NaN,1200.00
+2026-04-07,RAM,5,null
+2026-04-08,Cable HDMI,0,150.00
+2026-04-08,Laptop,1,15000.00
