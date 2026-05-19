@@ -1,3 +1,4 @@
+import math
 import sys
 
 
@@ -8,19 +9,20 @@ def parsear_linea(linea):
     """
     lista = linea.strip().split(',')
 
-    # Si no tiene exactamente 4 columnas, la ignoramos
     if len(lista) != 4:
         return None
 
     producto = lista[1]
 
-    # try/except para ignorar líneas con letras en vez de números
     try:
         cantidad = int(lista[2])
         precio = float(lista[3])
     except ValueError:
         return None
 
+    # Rechaza inf, -inf y nan (pasan float() sin lanzar ValueError)
+    if not math.isfinite(precio):
+        return None
 
     return (producto, cantidad, precio)
 
